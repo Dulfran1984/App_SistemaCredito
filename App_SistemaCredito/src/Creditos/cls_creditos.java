@@ -7,9 +7,9 @@ public class cls_creditos {
     private String str_correo;
     private int int_plazo;
     private float flt_monto;
-    private float flt_totalInteres;
-    private float flt_totalCredito;
-    private float flt_cuota;
+    private double flt_totalInteres;
+    private double flt_totalCredito;
+    private double flt_cuota;
     
     public cls_creditos(String tipo, String nombre, String id, String contacto, String correo, int plazo,
             float monto){
@@ -80,7 +80,7 @@ public class cls_creditos {
         this.flt_monto = flt_monto;
     }
 
-    public float getFlt_totalInteres() {
+    public double getFlt_totalInteres() {
         return flt_totalInteres;
     }
 
@@ -88,7 +88,7 @@ public class cls_creditos {
         this.flt_totalInteres = flt_totalInteres;
     }
 
-    public float getFlt_totalCredito() {
+    public double getFlt_totalCredito() {
         return flt_totalCredito;
     }
 
@@ -96,7 +96,7 @@ public class cls_creditos {
         this.flt_totalCredito = flt_totalCredito;
     }
 
-    public float getFlt_cuota() {
+    public double getFlt_cuota() {
         return flt_cuota;
     }
 
